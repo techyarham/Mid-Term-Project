@@ -47,9 +47,4 @@ The website is organized into five main pages, each serving a specific purpose:
 
 - **HTML/CSS:** Standard technologies for structuring and styling the web pages.
 - **Bootstrap:** Utilized for responsive design, including the navigation bar, off-canvas menu, carousels, and cards.
-- 
-## Getting Started
-
-To navigate the website, use the main navigation bar at the top of each page. For mobile users, the off-canvas menu ensures easy access to all sections. Each page is designed to provide relevant information and a smooth user experience.
-
-Thank you for visiting the Bano Qabil website! If you have any questions or feedback, please feel free to contact us through the provided social media links or contact forms.# Mid-Term-Project
+  
