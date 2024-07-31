@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+  
+  
+    #big-nav{
+        background-color:#333;
+        display: flex;
+        justify-content: space-between;
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+    a{
+        text-decoration: none;
+        color: #fefefe;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: #247BA0;
+        
+        
+    }
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        gap: 20%;
+        margin-right: 5%;
+        align-items: center;
+        margin-bottom: 0%;
+    }
+    #nav-ul{
+        
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #nav-screen{
+        display: flex;
+    }
+    
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-toggler {
+        border: none !important; 
+        transition: none !important; 
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    #logo{
+        margin: 1.5vw 3vw;
+    }
+    
+#main{
+    background-color: #0055A2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+#main_head{
+    color: #F6FFF8;
+}
+#main_text{
+    color: #F6FFF8;
+}
+#alkhidmat_logo{
+    height: 15vw;
+}
+.logo_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+#about_head{
+ display: flex;
+ justify-content: center;
+}
+.about_text{
+    padding: 2%;
+    
+}
+h4{
+    margin: 2%;
+}
+.card{
+    width: 35vw;
+}
+.card-img-top{
+    margin-top: 3%;
+}
+#programs{
+    margin-bottom: 3%;
+}
+#programs_head{
+    display: flex;
+    justify-content: center
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%
+}
+.link_logo{
+    height: 3vw;
+}
+
+
+#contact_head{
+    display: flex;
+    justify-content: center;
+}
+
+#links{
+    display: flex;
+    gap: 5%;
+}
+#contact{
+    margin-left: 5%;
+}
+.logo_text{
+    display: flex;
+    
+}
+
+footer{
+    text-align: center;
+    background-color:#333;
+    color: #F6FFF8;
+    padding: 2%;
+}
+    @media (max-width: 767px) 
+{
+    #big-nav {
+         display: none;
+        }
+        .logo_head{
+            flex-direction: column
+        }
+        .card{
+            width: 65vw;
+        }
+        .link_logo{
+            height: 4vw;
+        }
+      }
+      @media (min-width: 767px) {
+          .navbar {
+           display: none;
+          } 
+      }

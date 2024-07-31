@@ -1,0 +1,177 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  }
+
+
+  #big-nav{
+      background-color:#333;
+      display: flex;
+      justify-content: space-between;
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis;
+  }
+  a{
+      text-decoration: none;
+      color: #fefefe;
+  }
+  a:hover{
+      text-decoration: underline;
+      color: #247BA0;
+      
+      
+  }
+  ul{
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+      gap: 20%;
+      margin-right: 5%;
+      align-items: center;
+      margin-bottom: 0%;
+  }
+  #nav-ul{
+      
+      justify-content: flex-end;
+      align-items: center;
+  }
+  #nav-screen{
+      display: flex;
+  }
+  
+  .navbar-toggler:focus {
+      outline: none;
+  }
+  .navbar-toggler {
+      border: none !important; 
+      transition: none !important; 
+  }
+  .navbar-toggler:focus {
+      outline: none;
+      box-shadow: none;
+  }
+
+#main{
+    background-image: url(././images/hafiz\ back.png) ;
+    background-repeat:no-repeat;
+     height:100vh;
+       width: 100%;
+     background-size: cover;
+     background-position: center;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction:column; 
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel {
+    width: 80vw;
+    height: 100%;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+#gallery{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon{
+    background-color: brown
+}
+h1 {
+  color: #fefefe
+}
+#main_text{
+  color: #fefefe;
+}
+#logo{
+    margin: 1.5vw 3vw;
+}
+.links_logo{
+    height: 10vw;
+    margin: 2%;
+}
+#social_logo{
+    display: flex;
+    justify-content: space-around;
+}
+#about_head{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#about_text{
+    margin: 2%;
+    text-align: center;
+}
+.social_head{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    text-align: center;
+}
+#social_logo{
+    margin-bottom: 5%;
+}
+.search_more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center
+}
+#butt{
+    background-color: black;
+    color: #fefefe;
+    padding: 4%;
+    width: 35vw;
+    border-radius: 20px;
+    margin: 2%;
+    margin-bottom: 5%;
+}
+h2{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+#main_text{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color:#333;
+    color: #F6FFF8;
+    padding: 2%;
+}
+p{
+    margin-bottom: 0%;
+}
+@media (max-width: 768px) {
+  #main {
+      height: 80vh; /* Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  #main {
+      height: 60vh; /* Further adjust height for very small screens */
+  }
+}
+
+
+@media (max-width: 767px) 
+{
+    #big-nav {
+         display: none;
+        }
+      }
+      @media (min-width: 767px) {
+          .navbar {
+           display: none;
+          } 
+      }

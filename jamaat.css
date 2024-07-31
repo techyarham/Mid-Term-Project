@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+  
+  
+    #big-nav{
+        background-color:#333;
+        display: flex;
+        justify-content: space-between;
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+    a{
+        text-decoration: none;
+        color: #fefefe;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: #247BA0;
+        
+        
+    }
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        gap: 20%;
+        margin-right: 5%;
+        align-items: center;
+        margin-bottom: 0%;
+    }
+    #nav-ul{
+        
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #nav-screen{
+        display: flex;
+    }
+    
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-toggler {
+        border: none !important; 
+        transition: none !important; 
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    #logo{
+        margin: 1.5vw 3vw;
+    }
+    #jamaat_logo{
+        height: 15vw;
+    }
+#main{
+    background-color: #0055A2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+#main_head{
+    color: #F6FFF8;
+}
+#main_text{
+    color: #F6FFF8;
+}
+#about_head{
+    display: flex;
+    justify-content: center;
+}
+.about_text{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+h4{
+    padding-left: 2%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+#join_head{
+    display: flex;
+    justify-content: center
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #0055A2;
+    align-items: center;
+   
+    
+}
+
+input{
+    width: 70%;
+    border-radius: 10px;
+    border: gray solid;
+}
+label{
+    color: black
+}
+button{
+    background-color: #fff;
+    margin: 2%;
+    border-radius: 10px;
+    padding: 2%;
+    color: #0055A2;
+}
+footer{
+    text-align: center;
+    background-color:#333;
+    color: #F6FFF8;
+    padding: 2%;
+}
+@media (max-width: 767px) 
+{
+    #big-nav {
+         display: none;
+        }
+        
+        .card{
+            width: 65vw;
+        }
+      }
+      @media (min-width: 767px) {
+          .navbar {
+           display: none;
+          } 
+      }

@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#main_head{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(8, 8, 8);
+    color: #F6FFF8;
+    padding: 2%;
+}
+body{
+    background-color: #247BA0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.content{
+    width: 80%;
+    margin: 5%;
+    border: black solid;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: #fff;
+    
+}
+.head_name{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
