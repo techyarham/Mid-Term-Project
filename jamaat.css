@@ -104,6 +104,7 @@ input{
     width: 70%;
     border-radius: 10px;
     border: gray solid;
+    padding:2%;
 }
 label{
     color: black
@@ -115,6 +116,8 @@ button{
     padding: 2%;
     color: #0055A2;
 }
+form h3{
+    color: #F6FFF8;
 footer{
     text-align: center;
     background-color:#333;
